@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter, FaDev } from 'react-icons/fa';
-import { SiHashnode } from 'react-icons/si'
+import { FaGithub, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+// import { SiHashnode } from 'react-icons/si'
+
 
 const HeaderSocials = () => {
     return (
@@ -13,11 +14,11 @@ const HeaderSocials = () => {
                 <FaLinkedinIn />
             </a>
 
-            {/* <a href='https://wwww.facebook.com/Greg.Sithole' className='home__social-link' target='_blank' rel='noreferrer'>
+            <a href='https://wwww.facebook.com/' className='home__social-link' target='_blank' rel='noreferrer'>
                 <FaFacebookF />
-            </a> */}
+            </a>
 
-            <a href='https://www.twitter.com/GregSithole' className='home__social-link' target='__blank' rel='noreferrer'>
+            <a href='https://www.twitter.com/' className='home__social-link' target='__blank' rel='noreferrer'>
                 <FaTwitter />
             </a>
         </div>
